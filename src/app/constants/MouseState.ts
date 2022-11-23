@@ -7,7 +7,6 @@ export const enum MouseState {
     MarkerImage,
     MarkerDescription,
     MarkerLink,
-    MarkerBlank,
     MarkerCustom,
     Copy,
     Paste,
