@@ -7,7 +7,7 @@ const ImageSliderCustomMarkerData: FC<CustomMarkerDataProps> = ({markerData}) =>
     const data = markerData as MarkerDataImageSlider;
 
     return (
-        <MDBCarousel showIndicators showControls dark fade delay={1000}>
+        <MDBCarousel showIndicators={true} showControls={true} dark={true}>
             {
                 data.images.map((image, index) => {
                     return (
